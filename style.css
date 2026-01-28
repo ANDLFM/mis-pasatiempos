@@ -1,23 +1,39 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #cda3dd;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     color: #222;
+    padding: 20px;
 }
 
-
 .pasatiempo {
-    background-color: white;
+    background-color: rgb(223, 224, 204);
     margin: 20px auto;
-    padding: 15px;
+    padding: 20px;
     width: 80%;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .pasatiempo img {
-    width: 300px;
+    width: 150px;        
+    height: auto;
     border-radius: 10px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.pasatiempo h2 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.pasatiempo p {
+    color: #000;
+    font-size: 16px;
 }
